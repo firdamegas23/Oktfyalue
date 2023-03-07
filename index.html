@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Belajar HTML dan CSS</title>
+
+        <!-- Cara lain nambahin CSS di HTML 
+        Ini keuntungannya lebih simpel Tapi Kekurangannya gak bisa dipake ke file lain-->
+        <style>
+            h2 {
+                color: #8329cc;
+            }
+        </style>
+
+        <!-- Cara 3 Eksternal CSS
+        + bisa dipake ke semua file tapi 
+        -kadang ada yang bertumpuk/bisa samaan kalo namanya sama-->
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+
+    <body>
+        Hayii ini di biasa
+        <!-- Hayii ini komentar -->
+        <h1>Ini H1</h1>
+        <h2>Ini H2</h2>
+        <h3>Ini H3</h3>
+        <h4>Ini H4</h4>
+        <h5>Ini H5</h5>
+        <h6>Ini H6</h6>
+
+        <!-- kalau mau nambahin CSS langsung di HTML,
+        Tapi kurang efektif kalo banyak wkwk-->
+        <h1 style="color: #1ca07b;">Cetarrrr</h1> 
+        
+        <p>Ini Paragrafff, </p>
+
+        <a href="https://www.google.com/">Ke Google nii</a>
+        <br> <!-- Untuk spasiii -->
+        <a href="home.html">Contoh Website</a>
+        <br>
+        <!-- Untuk Buka web di Tab Baruu -->
+        <a target="_blank" href="home.html">Contoh  Website lagi</a> 
+
+        <br><br>
+        <!-- Kalo sumber gambar internal, bisa kebaca jika di dalemm folder utama-->
+        <!-- alt itu untuk kasih keterangan nama gambarnya-->
+        <img src="FiukhxhXgAAMCgj.jpeg" alt="KBS Gayo Daechukje">  
+        <br><br><br><br>
+        <!-- bisa atur ukuran gambar pake width dan height-->
+        <img src="FiukhxhXgAAMCgj.jpeg" alt="KBS Gayo" width="500"> 
+        <br><br><br><br>
+        <!-- Ambil Gambar di Internet sampe buka gambar di tab baru... lalu baru copy linknya-->
+        <!-- Udah dalam bentuk px, jadi kalo ggak nulis px gak papa-->
+        <img src="https://i.pinimg.com/originals/d1/a4/31/d1a43192be3017c66bd61439c93f5af2.jpg" alt="Dino Kuning" width="500px">
+
+        
+        <br><br><br>
+        <ul> <!-- penanda lisnya bullet (gak urut) -->
+            <li>HTML</li>
+            <li>PHP</li>
+            <li>Ruby</li>
+        </ul>
+
+        <ol> <!-- Penandanya urutan angka -->
+            <li>Robot</li>
+            <li>Dinosaurus</li>
+            <li>Unicornnn</li>
+        </ol>
+    </body>
+</html>
